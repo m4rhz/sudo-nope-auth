@@ -41,6 +41,6 @@ Karena sistem ini pada dasarnya tidak mengizinkan siapa pun untuk masuk, terdapa
 Cukup clone repository ini dan buka file index.html di browser pilihan Anda. Tidak memerlukan local server atau proses build.
 
 ```Bash
-git clone [https://github.com/m4rhz/sudo-nope-auth.git](https://github.com/m4rhz/sudo-nope-auth.git)
+git clone https://github.com/m4rhz/sudo-nope-auth.git
 cd sudo-nope-auth
 ```
