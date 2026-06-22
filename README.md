@@ -4,7 +4,7 @@
 
 Sistem login interaktif dan sarkastik yang dibangun menggunakan murni HTML, CSS, dan Vanilla JavaScript. Antarmuka ini dirancang menyerupai environment *split-pane* terminal (seperti Tmux/Neovim) dengan tema warna Monokai Classic.
 
-Dibuat sebagai syarat pendaftaran *bootcamp* untuk mendemonstrasikan pemahaman mendalam tentang manipulasi DOM, penanganan *Event Listener*, dan logika *Frontend*, alih-alih menggunakan *tools* keamanan konvensional.
+Dibuat saat lagi gabut untuk mendemonstrasikan pemahaman tentang manipulasi DOM, penanganan *Event Listener*, dan logika *Frontend*, alih-alih menggunakan *tools* keamanan konvensional.
 
 ## ✨ Core Features
 - **Runaway Button (DOM Physics):** Tombol eksekusi yang secara dinamis menghindari kursor pengguna menggunakan perhitungan koordinat *bounding client* secara *real-time*.
