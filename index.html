@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudo Nope Auth - Monokai Terminal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Layar Utama (Pintu Brankas) -->
+    <div class="window-container">
+        <!-- Panel Kiri: Layar Login -->
+        <div class="pane login-pane">
+            <div class="pane-header">
+                <span class="file-name">🔒 auth_gateway.sh</span>
+            </div>
+            <div class="pane-content">
+                <h2>System Login</h2>
+                <p class="instruction">Buktikan kalau lu layak masuk.</p>
+
+                <div class="input-group">
+                    <span class="prompt">user@local:~$</span>
+                    <input type="text" id="username" placeholder="username" autocomplete="off">
+                </div>
+
+                <div class="input-group">
+                    <span class="prompt">password:</span>
+                    <input type="password" id="password" placeholder="••••••••" autocomplete="off">
+                </div>
+
+                <div class="button-container">
+                    <button id="runaway-btn" class="monokai-btn">Execute Login</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel Kanan: Server Sarcasm Log -->
+        <div class="pane terminal-pane">
+            <div class="pane-header">
+                <span class="file-name">📝 /var/log/server_sarcasm.log</span>
+            </div>
+            <div class="pane-content terminal-output" id="terminal-log">
+                <div class="log-line success">[SYSTEM] Daemon started successfully.</div>
+                <div class="log-line info">[SYSTEM] Waiting for user input...</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Layar Rahasia di Belakang (Muncul pas di-hack) -->
+    <div class="success-screen" id="success-screen">
+        <h1 class="glitch-title">SYSTEM UNLOCKED</h1>
+        <p class="welcome-text">Selamat datang, Root User: Aqil.</p>
+        <div class="secret-content">
+            <h3>Hi, I'm Aqil 👋</h3>
+            <p>Sistem keamanan ini hanyalah fasad yang ditulis menggunakan HTML, CSS, dan Vanilla JavaScript murni. Saya lebih suka merancang logika interaktif di <i>frontend</i> dan mengotak-atik sistem daripada mengikuti prosedur standar.</p>
+            <br>
+            <p><strong>Tech Stack untuk web ini:</strong></p>
+            <ul>
+                <li>- DOM Manipulation & Physics Logging</li>
+                <li>- Monokai Classic UI Architecture</li>
+                <li>- CSS Cubic-Bezier Animations</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Status Bar ala Editor -->
+    <div class="status-bar">
+        <div class="status-left">NORMAL</div>
+        <div class="status-center">index.html</div>
+        <div class="status-right">utf-8 | Monokai Classic</div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
